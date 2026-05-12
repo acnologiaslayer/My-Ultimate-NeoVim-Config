@@ -8,6 +8,8 @@
 -- ============================================================================
 
 local ensure_installed = {
+  --treesitter-cli
+  "tree-sitter-cli",
   -- Web
   "html", "css", "scss", "javascript", "typescript", "tsx", "vue", "svelte",
   "json", "yaml", "toml", "graphql", -- jsonc filetype falls back to json parser
